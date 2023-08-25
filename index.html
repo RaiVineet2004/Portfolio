@@ -1,0 +1,319 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vineet Rai PORTFOLIO</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/e674bba739.js" crossorigin="anonymous"></script>
+    <script type="module" src="https://unpkg.com/threejs-toys@0.0.8/build/threejs-toys.module.cdn.min.js"></script>
+
+</head>
+
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="" class="logo"></img>
+                <ul>
+                    <li><a href="#header">Home</a></li>
+                    <li  ><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#Projects">Projects</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fas fa-times"></i>
+                </ul>
+                <i class="fas fa-bars"></i>
+            </nav>
+            
+            <div class="header-text">
+                <span>Full Stack Web Developer</span> 
+                <h1>Hi, I'm <span>Vineet Rai</span><br>from Australia</h1> 
+            </div>
+            <div class="circle">
+                <span style="--i:1;"><img src="assets/SVGIcons/azure.svg" height="75px"></span>
+                <span style="--i:2;"><img src="assets/SVGIcons/dotnet.svg" height="75px"></span>
+                <span style="--i:3;"><img src="assets/SVGIcons/reactjs.svg" height="75px"></span>
+                <span style="--i:4;"><img src="assets/SVGIcons/jira.svg" height="75px"></span>
+                <span style="--i:5;"><img src="assets/SVGIcons/adobe-premiere-pro.svg" height="75px"></span>
+                <span style="--i:6;"><img src="assets/SVGIcons/html-5.svg" height="70px"></span>
+                <span style="--i:7;"><img src="assets/SVGIcons/figma.svg" height="75px"></span>
+                <span style="--i:8;"><img src="assets/SVGIcons/css3.svg" height="70px"></span>
+                <span style="--i:9;"><img src="assets/SVGIcons/javascript.svg" height="75px"></span>
+                <span style="--i:10;"><img src="assets/SVGIcons/node-js.svg" height="75px"></span>
+                <span style="--i:11;"><img src="assets/SVGIcons/aws-1.svg" height="75px"></span>
+                <span style="--i:12;"><img src="assets/SVGIcons/PostgreSQL-Dark.svg" height="75px"></span>
+                <span style="--i:13;"><img src="assets/SVGIcons/MySQL-Dark.svg" height="75px"></span>
+                <span style="--i:14;"><img src="assets/SVGIcons/Firebase-Dark.svg" height="75px"></span>
+                <span style="--i:15;"><img src="assets/SVGIcons/Github-Dark.svg" height="75px"></span>
+            </div>
+            
+        </div>
+       
+    </div>
+    <!-- ----------ABOUT---------- -->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="images/VineetRai.jpg">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <br>
+                    <p> A passionate and driven Bachelor of Software Engineering graduate based in 
+                        Melbourne. With a strong work ethic and a disciplined mindset, I thrive both in team settings and as an 
+                        individual contributor. My journey in the world of technology has equipped me with a diverse set of skills, 
+                        from front-end development using HTML, CSS, and JavaScript to back-end technologies like ASP.Net Core 6 (MVC), 
+                        PHP, and Node.js.
+                    </p>
+                    <br>
+                    <p>
+                        With a passion for creating user-centric solutions, I have been actively involved in building mobile applications 
+                        and dynamic, responsive front-end designs. Collaborating with teams and integrating front-end functionalities 
+                        with back-end APIs and services have been a rewarding part of my journey. I am Microsoft Certified as an 
+                        <strong>Azure Developer Associate</strong> , and I believe in continuous learning to stay ahead in the ever-evolving world of technology.
+                    </p>
+                    <div class="tab-titles">
+                        <!-- <p class="tab-links active-link" onclick="openTab('skills')">Skills</p> -->
+                        <p class="tab-links" onclick="openTab('experience')">Experience</p>
+                        <p class="tab-links" onclick="openTab('education')">Education</p>
+                    </div>
+                    <!-- <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>UI/UX</span><br>Designing Web/App interfaces</li>
+                            <li><span>Web Development</span><br>Web app Development</li>
+                            <li><span>App Development</span><br>Building Android/iOS apps</li>
+                        </ul>
+                    </div> -->
+                    <div class="tab-contents active-tab" id="experience">
+                        <ul>
+                            
+                            <li><span>Feb 2023 - present     <br>   Sydney,NSW<br></span><br>Mobile Application Developer ( Remote Internship )</li>
+                            <li><span>Aug 2022 - Feb 2023    <br> Melbourne,VIC<br></span><br>DotNet Developer (Contract Role) at Bhalekar Consulting.</li>
+                            
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>Feb 2023 - Present <br></span><br>Professional Year, Performance Education, Melbourne, Australia</li>
+                            <br>
+                            <li><span>Feb 2019 - May 2022 <br></span><br>Bachelor of Software Engineering Torrens University, Melbourne, Austalia </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- ----------SERVICES---------- -->
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title">My Services</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fa-brands fa-android "></i>
+                    <h2>Mobile App Development</h2>
+                    <p> Experience in developing cross-platform mobile applications using React Native and Expo framework. 
+                        </p>
+                    <!-- <a href="#">Learn more</a> -->
+                </div>
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2> Web Development</h2>
+                    <p> Experience in developing dynamic and responsive front-end designs for web and mobile using 
+                        React.js, CSS, HTML, and JavaScript. 
+                    </p>
+                    <!-- <a href="#">Learn more</a> -->
+
+                </div>
+                <div>
+
+                    <i class="fa-solid fa-crop-simple"></i>
+                    <h2>Back-end Development</h2>
+                    <p> Experience In integrating front-end functionalities with back-end APIs and services. 
+                        using technologies like ASP.NET Core 6 (MVC), Node.js, and databases like MongoDB, 
+                        Google Firebase, PostgreSQL, and MySQL.</p>
+                    <!-- <a href="#">Learn more</a> -->
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- ----------PROJECTS--------- -->
+    <div id="Projects">
+        <div class="container">
+            <h1 class="sub-title">My Projects</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="images/work-2.png" alt="">
+                    <div class="layer">
+                        <h2> Stomble Mobile App</h2>
+                        <p> This Mobile Application developed using React, Expo framework, and various React libraries.</p>
+                        <a href="https://github.com/RaiVineet2004/MobileApplication"><i class="fas fa-external-link-alt"></i></a>
+                        <h3>Github</h3>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/work-1.png" alt="">
+                    <div class="layer">
+                        <h2>Chat App </h2>
+                        <p> This Chat Application developed using React, Expo framework, and various React libraries.</p>
+                        <a href="https://github.com/RaiVineet2004/Chat-App"><i class="fas fa-external-link-alt"></i></a>
+                        <h3>Github</h3>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/work-3.png" alt="">
+                    <div class="layer">
+                        <h2> Real-Estate Web App </h2>
+                        <p> A real-world application build using ASP.NET Core 6 Web API and React enable the user to add, update and 
+                            delete the Contact for sale and also add the biding for houses.</p>
+                        <a href="https://github.com/RaiVineet2004/Web-Api"><i class="fas fa-external-link-alt"></i></a>
+                        <h3>Github</h3>
+                    </div>
+                </div>
+            </div>
+            <a href="https://github.com/RaiVineet2004?tab=repositories" class="btn">See more</a>
+        </div>
+    </div>
+
+    <!-- ----------CONTACT---------- -->
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact Me</h1>
+                    <p><i class="fas fa-paper-plane"></i> vineetrai826@gmail.com</p>
+                    <p><i class="fas fa-phone-square-alt"></i> 0452262502</p>
+                    
+                    <div class="social-icons">
+                        <a href="#"><i class="fab fa-facebook"></i></a>
+                        <!-- <a href="#"><i class="fab fa-twitter-square"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>  -->
+                        <a href="https://www.linkedin.com/in/azure-dotnet-developer/"> <i class="fab fa-linkedin"></i></a>
+                    </div>
+                    <a href="images/Vineet Rai Resume.pdf" download class="btn btn2"> Download CV </a>
+                </div>
+                <div class="contact-right">
+                    <form action="" method="post">
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="email" name="Email" placeholder="Your Email" required>
+                        <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                        <input type="hidden" name="hidden" value="1"> <!-- Hidden field to prevent direct access -->
+                        <button type="submit" class="btn btn3">submit</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <p> Made <i class="fas fa-heart"></i> by Vineet Rai</p>
+        </div>
+    </div>
+
+
+
+    <script>
+        var tabLinks = document.getElementsByClassName('tab-links');
+        var tabContents = document.getElementsByClassName('tab-contents');
+
+        function openTab(tabName) {
+            for (tabLink of tabLinks) {
+                tabLink.classList.remove('active-link');
+            }
+            for (tabContent of tabContents) {
+                tabContent.classList.remove('active-tab');
+            }
+            event.currentTarget.classList.add('active-link');
+            document.getElementById(tabName).classList.add('active-tab');
+        }
+
+        // JavaScript for handling the mobile navigation menu
+        document.querySelector('.fas.fa-bars').addEventListener('click', function () {
+            document.querySelector('nav ul').classList.toggle('show');
+        });
+
+        document.querySelector('.fas.fa-times').addEventListener('click', function () {
+            document.querySelector('nav ul').classList.remove('show');
+        });
+
+    </script>
+    <!-- Function to handle smooth scrolling when a navigation link is clicked -->
+    <script>
+
+        function smoothScrollTo(target) {
+            const element = document.querySelector(target);
+            if (element) {
+                const offsetTop = element.getBoundingClientRect().top;
+                window.scrollBy({
+                    top: offsetTop,
+                    behavior: 'smooth'
+                });
+            }
+        }
+    
+        // Add event listeners to the navigation links
+        document.querySelectorAll('nav a').forEach(link => {
+            link.addEventListener('click', function (event) {
+                event.preventDefault();
+                const target = this.getAttribute('href');
+                smoothScrollTo(target);
+                // Hide the mobile navigation menu after clicking on a link
+                document.querySelector('nav ul').classList.remove('show');
+            });
+        });
+    </script>
+   <script type="module">
+    import { particlesCursor } from 'https://unpkg.com/threejs-toys@0.0.8/build/threejs-toys.module.cdn.min.js'
+
+    const pc = particlesCursor({
+        el: document.getElementById("header"),
+        gpgpuSize: 512,
+        colors: [0x00fffc, 0x0000ff], // Changed pink color to #00fffc and blue color
+        color: 0xff0000,
+        coordScale: 0.5,
+        noiseIntensity: 0.005,
+        noiseTimeCoef: 0.0001,
+        pointSize: 2, // Lighter particle thickness
+        pointDecay: 0.0025,
+        sleepRadiusX: 250,
+        sleepRadiusY: 250,
+        sleepTimeCoefX: 0.001,
+        sleepTimeCoefY: 0.002
+    });
+
+    // Update particle position based on cursor movement
+    document.addEventListener('mousemove', (event) => {
+        const mouseX = event.clientX / window.innerWidth;
+        const mouseY = 1 - event.clientY / window.innerHeight;
+        
+        pc.uniforms.uMousePos.value.set(mouseX, mouseY);
+    });
+
+    document.body.addEventListener('click', () => {
+        pc.uniforms.uColor.value.set(Math.random() * 0xffffff);
+        pc.uniforms.uCoordScale.value = 0.001 + Math.random() * 2;
+        pc.uniforms.uNoiseIntensity.value = 0.0001 + Math.random() * 0.001;
+        pc.uniforms.uPointSize.value = 1 + Math.random() * 10;
+    });
+    
+    document.body.addEventListener('click', () => {
+        pc.uniforms.uColor.value.set(Math.random() * 0xffffff);
+        pc.uniforms.uCoordScale.value = 0.001 + Math.random() * 2;
+        pc.uniforms.uNoiseIntensity.value = 0.0001 + Math.random() * 0.001;
+        pc.uniforms.uPointSize.value = 1 + Math.random() * 10;
+        
+        // Reset particle parameters after 2 seconds
+        setTimeout(() => {
+            pc.uniforms.uColor.value.set(0x000000); // Set color to black (invisible)
+            pc.uniforms.uCoordScale.value = 0.001;
+            pc.uniforms.uNoiseIntensity.value = 0.0001;
+            pc.uniforms.uPointSize.value = 0;
+        }, 2000);
+    });
+</script>
+
+   
+    
+</body>
+</html>
